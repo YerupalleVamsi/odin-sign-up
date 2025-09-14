@@ -1,0 +1,122 @@
+@font-face{
+    font-family: norse;
+    src: url(../images/font.otf);
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+.bottom{
+display: flex;
+flex-direction: row;
+align-items: end;
+justify-content: center;
+position:relative;
+width: 35pw;
+height: 100%;
+letter-spacing:0.4mm;
+}
+body{
+    margin:0;
+    padding:0;
+}
+.txt{
+    font-family:norse,sans-serif;
+    font-size: 75px;
+    left-margin:10px;
+}
+.logo{
+    width:20%;
+    object-fit: cover;
+    display:flex;
+}
+.wrapper-logo{
+    margin-top: 100px;
+    object-fit: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+    position: absolute;
+    width: 35vw;
+    height: 20vh;
+    color:#fafafa;
+    background-color: rgba(45, 51, 51, 0.562);
+}
+.left{
+background-image: url('./images/trees.jpg');
+position: relative;
+object-fit: cover;
+width:35vw;
+background-repeat: no-repeat;
+background-size:cover;
+color:white;
+}
+.right{
+    display:flex;
+    flex-direction: column;
+    background-color: #fafafa;
+    width: 65vw;
+}
+.first{
+    height: 33vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-end;
+    padding-left:6%;
+    margin-bottom:5%;
+}
+h3{
+ padding-left: 57px;   
+}
+.second{
+    background-color: white;
+    height: 33vh;
+    padding-left:6%;
+    background-color: #ececec;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    border-radius: 2px;
+}
+.form-main-div{
+    display:flex;
+    flex-direction: row;
+    font-family: 'Roboto';
+    font-size:small
+    
+}
+.form-divs{
+    display:flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-bottom: 6%;
+    
+}
+.third{
+    padding-top: 5%;
+    height: 33vh;
+    margin-left: 6%;
+}
+.ending{
+    padding-top:5%;
+    font-family: 'Roboto';
+}
+.Create_button{
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    padding: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 9px;
+    color: white;
+    background-color: green;
+    cursor: pointer;
+    transition: background-color 1s ease;
+    border-color: #ecececd0;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+.Create_button:hover{
+    background-color: rgb(86, 163, 73);
+
+}
